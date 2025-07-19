@@ -15,6 +15,10 @@
     margin:0 auto;
     box-sizing: border-box;
 }
+.popular-container{
+    max-width: 73%;
+    margin: auto;
+}
 .margin-t{
     margin-top: 87px;
 }
@@ -124,10 +128,66 @@ img{
 
 .brand{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     
     
 }
+/* brand-section-end */
+/* popular-section-start */
+.popular-title{
+    
+    text-align: center;
+    font-size: 1.8rem;
+    line-height: 70px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+.popular-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+
+}
+.card{
+   padding: 20px;
+  box-shadow: 10px 1px 37px rgb(99, 99, 99);
+   border-radius: 7px;
+}
+.card-title{
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.card-price{
+    font-size: 1.5rem;
+    line-height: 36px;
+    font-weight: 400;
+}
+.a{
+    color: rgb(255, 173, 21);
+    font-size: 14px;
+    line-height: 21px;
+}
+.ab{
+    font-size: 14px;
+    margin-left: 10px;
+    line-height: 21px;
+}
+.popular-discreption{
+    width: 196px;
+    margin-top: 10px;
+}
+.popular-discreption p{
+    color: rgba(120, 120, 133, 1);
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.span-2{
+    display:block;
+}
+
 
 
 
@@ -149,6 +209,7 @@ img{
     .banner-title{
    margin-top: 40px;
 }
+/* brand-section-responsive */
 
 .brand{
    
@@ -158,6 +219,13 @@ img{
     align-items: center;
     
     
+}
+/* card-section */
+.popular-cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+
 }
 
 
@@ -176,14 +244,22 @@ img{
      .banner-title{
    margin-top: 40px;
 }
+/* brand-section-responsive-tab */
 .brand{
    
     flex-wrap: wrap;
     align-content: flex-start;
     gap: 40px;
     align-items: center;
-    justify-content: center;
-    
-    
+    justify-content: center;  
+}
+/* brand-section-responsive-tab-end */
+
+/* card-section */
+.popular-cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+
 }
 }
