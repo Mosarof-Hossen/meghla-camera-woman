@@ -10,6 +10,11 @@
    
 
 }
+.main-container{
+    max-width: 78%;
+    margin:0 auto;
+    box-sizing: border-box;
+}
 .margin-t{
     margin-top: 87px;
 }
@@ -115,6 +120,14 @@ img{
     max-width: 540px;
     padding: 50px;
 }
+/* brand-section-start */
+
+.brand{
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
 
 
 
@@ -136,6 +149,18 @@ img{
     .banner-title{
    margin-top: 40px;
 }
+
+.brand{
+   
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+    align-items: center;
+    
+    
+}
+
+
 }
 
 
@@ -150,5 +175,15 @@ img{
     }
      .banner-title{
    margin-top: 40px;
+}
+.brand{
+   
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    
+    
 }
 }
