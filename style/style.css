@@ -283,6 +283,33 @@ img{
 
 
 }
+/* footer */
+.footer-bg{
+    background-color: black;
+    padding: 70px 0;
+    color: aliceblue;
+}
+.footer-title{
+    max-width: 262px;
+    margin: 0 auto;
+    text-align: center;
+}
+.f-heading{
+    font-size: 1.5rem;
+    line-height: 34px;
+    font-family: "poppins"sans-serif;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.f-icon{
+    
+    margin: 15px 0;
+}
+.f-icon i{
+    color: white;
+    font-size: 16px ;
+    margin: 0 8px;
+}
 
 
 /* tab-mobile-device */
