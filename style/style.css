@@ -115,3 +115,40 @@ img{
     max-width: 540px;
     padding: 50px;
 }
+
+
+
+
+
+
+
+/* Responsive style  */
+
+/* mobile-device */
+@media screen and (max-width:576px){
+    nav, ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        
+    }
+    .banner-title{
+   margin-top: 40px;
+}
+}
+
+
+/* tab-mobile-device */
+@media  screen and (min-width:576px) and (max-width:992px) {
+     nav,ul{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        
+    }
+     .banner-title{
+   margin-top: 40px;
+}
+}
