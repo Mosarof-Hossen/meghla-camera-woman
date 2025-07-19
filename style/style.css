@@ -187,6 +187,47 @@ img{
 .span-2{
     display:block;
 }
+/* card-section-end */
+
+.contact-product{
+    margin: 90px 0;
+    gap: 90px;
+    align-items: center;
+}
+.product-image{
+    width: 40%;
+
+}
+.product-content{
+    width: 59%;
+}
+.product-title{
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 55px;
+}
+.product-discreption{
+    max-width: 501px;
+    margin: 20px 0;
+    color: #6C6C6C;
+    font-size: 1rem;
+}
+.product-btn{
+    background-color: #E02C6D;
+    border: none;
+    border-radius: 3px ;
+    padding: 10px 24px;
+}
+.product-btn a{
+    text-decoration: none;
+    font-size: 1rem;
+    color: white;
+}
+.product-btn a i{
+    color: white;
+    margin-left: 5px;
+    font-size: 1rem;
+}
 
 
 
